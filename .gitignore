@@ -1,0 +1,27 @@
+# macOS & Editor
+.DS_Store
+.AppleDouble
+.LSOverride
+*.swp
+*.swo
+*~
+
+# Local environment & secrets (NEVER commit)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+id_ecdsa
+id_dsa
+*_ed25519
+*_rsa
+rclone.conf
+
+# Temp & logs
+*.tmp
+.cache/

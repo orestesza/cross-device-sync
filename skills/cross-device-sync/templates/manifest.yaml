@@ -1,0 +1,16 @@
+# Level 2/3 大文件产物清单（由 Git 跟踪，实际二进制文件不入库）
+# 使用 ./scripts/artifact-sync.sh hash artifacts/<file> 自动生成条目模板
+#
+# 字段说明：
+#   path       : 相对于 artifacts/ 目录的路径
+#   size_bytes : 文件字节数
+#   sha256     : SHA-256 校验和
+#   version    : 版本或日期标签
+#   notes      : 用途说明或手动来源备注
+
+artifacts:
+  # - path: "firmware/example.img"
+  #   size_bytes: 104857600
+  #   sha256: "0000000000000000000000000000000000000000000000000000000000000000"
+  #   version: "2026-11-25"
+  #   notes: "示例条目（取消注释后替换）"

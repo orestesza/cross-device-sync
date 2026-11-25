@@ -1,0 +1,40 @@
+# macOS / Editor
+.DS_Store
+.AppleDouble
+*.swp
+*.swo
+*~
+
+# Strict local secrets & credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+id_rsa
+id_ed25519
+id_ecdsa
+id_dsa
+*_ed25519
+*_rsa
+rclone.conf
+secrets.yaml
+secrets.yml
+*.secret
+
+# Large artifacts (tracked only via artifacts/manifest.yaml)
+artifacts/*
+!artifacts/manifest.yaml
+!artifacts/.gitkeep
+
+# Build outputs & large binaries
+build/
+dist/
+*.bin
+*.img
+*.zip
+*.tar.gz
+*.tgz

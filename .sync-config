@@ -1,0 +1,8 @@
+# cross-device-sync configuration
+SYNC_LEVEL=1
+REMOTE_MODE=single
+SYNC_PRIMARY_REMOTE=origin
+SYNC_BACKUP_REMOTE=backup
+SYNC_SSH_TIMEOUT=8
+SECRET_GUARD_MODE=basic
+MAX_FILE_MB=20

@@ -1,0 +1,48 @@
+# macOS / Editor
+.DS_Store
+.AppleDouble
+*.swp
+*.swo
+*~
+
+# Local secrets & env
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+id_ecdsa
+id_dsa
+*_ed25519
+*_rsa
+rclone.conf
+
+# Large artifacts (tracked only via artifacts/manifest.yaml)
+artifacts/*
+!artifacts/manifest.yaml
+!artifacts/.gitkeep
+
+# Build outputs & common large binary formats
+build/
+dist/
+.pio/
+*.bin
+*.img
+*.elf
+*.uf2
+*.iso
+*.dmg
+*.zip
+*.tar.gz
+*.tgz
+*.7z
+*.rar
+*.mp4
+*.mkv
+*.mov
+*.gguf
+*.safetensors
