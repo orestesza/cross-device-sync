@@ -1,6 +1,6 @@
-# agent-skills — 跨设备 / 跨 App 个人 Skill 仓库规则
+# cross-device-sync — 跨设备 / 跨 App 同步 Skill 仓库规则
 
-本仓库用于跨多台 Mac（`MacMini` / `YKPS` / `MBP14` 等）以及多个 AI 编程客户端（`Antigravity`、`Codex` 等）统一维护和同步个人通用 Skill。本仓库自身遵循 `cross-device-sync` **Level 1** 规范。
+本仓库用于跨多台 Mac（`MacMini` / `YKPS` / `MBP14` 等）以及多个 AI 编程客户端（`Antigravity`、`Codex` 等）统一维护和同步 3 级跨设备同步技能 `cross-device-sync`。本仓库自身遵循 `cross-device-sync` **Level 1** 规范。
 
 ## 1. 开工协议（Session Start）
 

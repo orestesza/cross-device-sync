@@ -1,12 +1,12 @@
-# agent-skills
+# cross-device-sync
 
-个人跨设备、跨 AI 客户端（Antigravity / Codex）通用 Skill 仓库。
+个人跨设备、跨 AI 客户端（Antigravity / Codex）3 级项目同步与交接 Skill 仓库。
 
 ## 新 Mac 一键接入
 
 ```bash
-git clone <YOUR_GITHUB_PRIVATE_REPO_SSH_URL> agent-skills
-cd agent-skills
+git clone git@github.com:orestesza/cross-device-sync.git
+cd cross-device-sync
 ./scripts/install-skills.sh
 ```
 
